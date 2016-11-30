@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: '20161115'
+  host: kurashita
+  disk_quota: 1024M
